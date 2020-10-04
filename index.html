@@ -6,12 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        nav ul {
+            list-style-type: circle;
+        }
+
+        ul {
+            list-style-type: circle;
+            overflow: hidden;
+            background-color: #926c1be0;
+        }
+
+        header {
+            background-color: rgba(78, 114, 187, 0.699);
+            padding: 25px;
+            text-align: center;
+            font-size: 25px;
+            color: white;
+        }
+
+
+
+        body {
+            background-color: aqua;
+            background-image: url("school.jpg");
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: left;
+            padding: 10px;
+            text-decoration: underline;
+            font-size: medium;
+        }
+
+        li a:hover {
+            background-color: #020e11;
+        }
+    </style>
 </head>
 
 <body>
-    <h1> Welcome To Our Kindergarten Website</h1>
-    <a href="about_us.html"> About us </a>
-    <a href="contact.html"> Contact </a>
+    <header>
+        <h1 style="color:darkred;"> Welcome To Manmms Kindergarten Website</h1>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li> <a href="about_us.html"> About us </a></li> <br>
+                <li> <a href="admission.html"> Admission </a></li> <br>
+                <li> <a href="contact.html"> Contact </a> </li> <br>
+                <li> <a href="fee.html"> Fee Structure </a> </li> <br>
+            </ul>
+        </nav>
+    </section>
+
 </body>
 
 </html>
