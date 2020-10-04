@@ -1,0 +1,15 @@
+#contact-head{
+    text-align: center;
+    color: coral;
+    font-size: bold;
+    background-color:navy;
+    border-radius: 0 0 15px 15px;
+    padding: 15px;
+
+
+}
+
+
+body{
+    background-color:black;
+}
