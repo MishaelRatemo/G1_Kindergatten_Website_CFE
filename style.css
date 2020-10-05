@@ -73,3 +73,6 @@
 #contact-head h1{
 	text-align: center;
 }
+nav.sticky-top{
+	position: fixed;
+}
