@@ -60,3 +60,16 @@
 	  
 
 }
+#contact-head{
+	width: 800px;
+	height: 500px;
+
+	border-radius: 5px;
+	background: #ffffff;
+	align-cont: center;
+	margin-left: 250px;
+
+}
+#contact-head h1{
+	text-align: center;
+}
